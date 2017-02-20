@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Tiziano.MyBlog.Web.Models.Account.LoginFormViewModel
+@{
 
     Layout = null;
 }
@@ -39,16 +40,20 @@
                 abp.ajax({
                     url: abp.appPath + 'Account/Login',
                     type: 'POST',
-                    data: JSON.stringify({
-                        usernameOrEmailAddress: $('#EmailAddressInput').val(),
-                        password: $('#PasswordInput').val(),
-                        tenancyName: $('#TenancyNameInput').val(),
-                        rememberMe: $('#RememberMeInput').is(':checked'),
-                        returnUrlHash: $('#ReturnUrlHash').val()
-                    })
-                }).done(function(data){
-                    abp.message.info('some info message', 'some optional title');
+                    data: 
+                        JSON.stringify({
+                            usernameOrEmailAddress: $('#EmailAddressInput').val(),
+                            password: $('#PasswordInput').val(),
+                            tenancyName: $('#TenancyNameInput').val(),
+                            rememberMe: $('#RememberMeInput').is(':checked'),
+                            returnUrlHash: $('#ReturnUrlHash').val(),
+                            returnUrl:'@Model.ReturnUrl'
+                        })
+                       
                 })
+                //.done(function (result,data) {
+                //    alert(result)
+                //})
                 );
             })
         })

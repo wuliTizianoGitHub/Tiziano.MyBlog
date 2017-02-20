@@ -8,6 +8,7 @@ namespace Tiziano.MyBlog.Web.Controllers
     {
         public ActionResult Index()
         {
+            long? user = AbpSession.UserId;
             return View();
         }
 	}
