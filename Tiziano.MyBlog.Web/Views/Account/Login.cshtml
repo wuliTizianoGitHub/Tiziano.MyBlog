@@ -1,0 +1,100 @@
+﻿@{
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>@L("Title")</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="~/css/animate.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/login.css" rel="stylesheet" />
+    <link href="~/Scripts/sweetalert/sweet-alert.css" rel="stylesheet" />
+
+    <!--[if lt IE 8]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+    <script src="~/js/jquery.min.js?v=2.1.4"></script>
+    <script src="~/Scripts/others/spinjs/spin.js"></script>
+    <script src="~/Scripts/others/spinjs/jquery.spin.js"></script>
+    <script src="~/Scripts/jquery.blockUI.js"></script>
+    <script src="~/Abp/Framework/scripts/abp.js"></script>
+    <script src="~/Abp/Framework/scripts/libs/abp.jquery.js"></script>
+    <script src="~/js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="~/Scripts/sweetalert/sweet-alert.js"></script>
+    <script src="~/Abp/Framework/scripts/libs/abp.sweet-alert.js"></script>
+    <script src="~/Abp/Framework/scripts/libs/abp.spin.js"></script>
+    <script src="~/Abp/Framework/scripts/libs/abp.blockUI.js"></script>
+    <script>
+        //if (window.top !== window.self) { window.top.location = window.location };
+        $(function () {
+            $('#login').click(function (e) {
+                e.preventDefault();
+                abp.ui.setBusy(
+                    ("#LoginArea"),
+                abp.ajax({
+                    url: abp.appPath + 'Account/Login',
+                    type: 'POST',
+                    data: JSON.stringify({
+                        usernameOrEmailAddress: $('#EmailAddressInput').val(),
+                        password: $('#PasswordInput').val(),
+                        tenancyName: $('#TenancyNameInput').val(),
+                        rememberMe: $('#RememberMeInput').is(':checked'),
+                        returnUrlHash: $('#ReturnUrlHash').val()
+                    })
+                }).done(function(data){
+                    abp.message.info('some info message', 'some optional title');
+                })
+                );
+            })
+        })
+    </script>
+</head>
+<body class="signin">
+    <div class="signinpanel">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="signin-info">
+                    <div class="logopanel m-b">
+                        <h1>Tiziano</h1>
+                    </div>
+                    <div class="m-b"></div>
+                    <h4>@L("WellcomeMessage")</h4>
+                    <ul class="m-b">
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势一</li>
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势二</li>
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势三</li>
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势四</li>
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势五</li>
+                    </ul>
+                    <strong>@L("NoAccount") <a href="register.html">@L("Register1")&raquo;</a></strong>
+                </div>
+            </div>
+            <div class="col-sm-5" id="LoginArea">
+
+                <h4 class="no-margins">@L("LogIn1")</h4>
+                <input type="text" class="form-control uname" placeholder="@L("TenancyName")" id="TenancyNameInput" />
+
+                <input type="text" class="form-control uname" placeholder="@L("UserNameOrEmail")" id="EmailAddressInput" />
+
+                <input type="password" class="form-control pword m-b" placeholder="@L("Password")" id="PasswordInput" />
+
+                           
+                <strong style="padding-right:5px">@L("RememberMe")</strong><input type="checkbox" id="RememberMeInput"/>       <A HREF="" style="float:right">@L("RememberPassword")</A>
+                <input id="ReturnUrlHash" type="hidden" name="returnUrlHash" />
+            
+                <button class="btn btn-success btn-block" id="login">@L("LogIn")</button>
+            </div>
+        </div>
+        <div class="signup-footer">
+            <div class="pull-left">
+                &copy; @L("Copyright")
+            </div>
+        </div>
+    </div>
+</body>
+</html>
