@@ -7,6 +7,9 @@ using Abp.Domain.Repositories;
 using Tiziano.MyBlog.Authorization;
 using Tiziano.MyBlog.Users.Dto;
 using Microsoft.AspNet.Identity;
+using Tiziano.MyBlog.Authorization.Roles;
+using Tiziano.MyBlog.Roles.Dto;
+using Abp.Authorization.Users;
 
 namespace Tiziano.MyBlog.Users
 {
@@ -14,13 +17,18 @@ namespace Tiziano.MyBlog.Users
     [AbpAuthorize(PermissionNames.Pages_Users)]
     public class UserAppService : MyBlogAppServiceBase, IUserAppService
     {
-        private readonly IRepository<User, long> _userRepository;
-        private readonly IPermissionManager _permissionManager;
 
-        public UserAppService(IRepository<User, long> userRepository, IPermissionManager permissionManager)
+        private readonly IRepository<User, long> _userRepository;
+        private readonly IRepository<Role, int> _roleRepository;
+        private readonly IPermissionManager _permissionManager;
+        private readonly IRepository<UserRole, long> _userRoleRepository;
+
+        public UserAppService(IRepository<User, long> userRepository, IPermissionManager permissionManager, IRepository<UserRole, long> userRoleRepository, IRepository<Role, int> roleRepository)
         {
             _userRepository = userRepository;
             _permissionManager = permissionManager;
+            _userRoleRepository = userRoleRepository;
+            _roleRepository = roleRepository;
         }
 
         public async Task ProhibitPermission(ProhibitPermissionInput input)
@@ -57,10 +65,18 @@ namespace Tiziano.MyBlog.Users
             CheckErrors(await UserManager.CreateAsync(user));
         }
 
-        public async Task<GetUserOutput> GetUser(long Id)
+        public async Task<GetUserOutput> GetUserAsync(long Id)
         {
            var user =  await UserManager.GetUserByIdAsync(Id);
            return  user.MapTo<GetUserOutput>();
         }
+
+        public async Task<GetRoleOutput> GetRoleAsync(long UserId)
+        {
+            var userRole = await _userRoleRepository.FirstOrDefaultAsync(s=>s.UserId == UserId);
+            var role = await _roleRepository.GetAsync(userRole.RoleId);
+            return role.MapTo<GetRoleOutput>();
+        }
+
     }
 }

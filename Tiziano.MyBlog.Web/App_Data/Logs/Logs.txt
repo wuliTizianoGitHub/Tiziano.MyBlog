@@ -834,3 +834,640 @@ DEBUG 2017-02-20 17:23:54,723 [123  ] Abp.Modules.AbpModuleManager             -
 DEBUG 2017-02-20 17:23:54,725 [123  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-02-20 17:23:54,726 [123  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-02-20 17:23:54,726 [123  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-02-21 16:20:05,329 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-21 16:20:05,356 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-21 16:20:05,397 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Web.MyBlogWebModule, Tiziano.MyBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,400 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogDataModule, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogCoreModule, Tiziano.MyBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogApplicationModule, Tiziano.MyBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Api.MyBlogWebApiModule, Tiziano.MyBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:05,415 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-21 16:20:05,796 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 16:20:05,796 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 16:20:05,797 [1    ] o.Configuration.LanguageManagementConfig - Converted MyBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 16:20:05,797 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 16:20:06,545 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Tiziano.MyBlog.EntityFramework.MyBlogDbContext, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:20:10,487 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-21 16:20:10,496 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-21 16:20:10,498 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-21 16:20:10,501 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyBlog
+DEBUG 2017-02-21 16:20:10,502 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-21 16:20:10,727 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 16:20:10,793 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-21 16:20:10,793 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-21 16:20:10,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-21 16:20:10,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.CreateUserInput
+DEBUG 2017-02-21 16:20:10,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.GetUserOutput
+DEBUG 2017-02-21 16:20:10,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.UserListDto
+DEBUG 2017-02-21 16:20:10,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-21 16:20:10,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-21 16:20:10,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-21 16:20:13,235 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-21 16:20:13,236 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-21 16:20:13,237 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-21 16:20:13,238 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-02-21 16:20:16,739 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 42
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 67
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:行号 27
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:行号 48
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 42
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 100
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:行号 67
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:行号 27
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) 位置 D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:行号 48
+DEBUG 2017-02-21 16:55:35,367 [146  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-02-21 16:55:35,368 [146  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 16:55:35,368 [146  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 16:55:35,369 [146  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-02-21 16:56:15,499 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-21 16:56:15,513 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-21 16:56:15,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Web.MyBlogWebModule, Tiziano.MyBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogDataModule, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogCoreModule, Tiziano.MyBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogApplicationModule, Tiziano.MyBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Api.MyBlogWebApiModule, Tiziano.MyBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:15,526 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-21 16:56:15,731 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 16:56:15,731 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 16:56:15,731 [1    ] o.Configuration.LanguageManagementConfig - Converted MyBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 16:56:15,731 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 16:56:16,147 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Tiziano.MyBlog.EntityFramework.MyBlogDbContext, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 16:56:17,760 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-21 16:56:17,765 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-21 16:56:17,767 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-21 16:56:17,769 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyBlog
+DEBUG 2017-02-21 16:56:17,770 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-21 16:56:17,922 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 16:56:17,980 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-02-21 16:56:17,980 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-21 16:56:17,984 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-21 16:56:17,984 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.CreateUserInput
+DEBUG 2017-02-21 16:56:17,984 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.GetUserOutput
+DEBUG 2017-02-21 16:56:17,984 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.UserListDto
+DEBUG 2017-02-21 16:56:17,984 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-21 16:56:17,984 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-21 16:56:17,984 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-21 16:56:20,091 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-21 16:56:20,092 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-21 16:56:20,093 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-21 16:56:20,094 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-02-21 16:57:39,858 [125  ] no.MyBlog.Web.Controllers.HomeController - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tiziano.MyBlog.Users.UserAppService.<GetRoleAsync>d__10.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Application\Users\UserAppService.cs:行号 74
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Tiziano.MyBlog.Web.Controllers.HomeController.<Index>d__5.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Web\Controllers\HomeController.cs:行号 34
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-21 16:57:44,843 [125  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a537b611-5d9b-4b26-adb2-75a5996c132c","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T16:57:44.8379604+08:00","Properties":{}}
+DEBUG 2017-02-21 16:57:44,874 [125  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a537b611-5d9b-4b26-adb2-75a5996c132c
+DEBUG 2017-02-21 16:58:11,410 [125  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a537b611-5d9b-4b26-adb2-75a5996c132c
+ERROR 2017-02-21 16:58:22,914 [146  ] no.MyBlog.Web.Controllers.HomeController - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tiziano.MyBlog.Users.UserAppService.<GetRoleAsync>d__10.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Application\Users\UserAppService.cs:行号 74
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Tiziano.MyBlog.Web.Controllers.HomeController.<Index>d__5.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Web\Controllers\HomeController.cs:行号 34
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-21 16:58:23,548 [136  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6451e4f6-c252-493a-9f9c-71126efb74ac","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T16:58:23.5481385+08:00","Properties":{}}
+DEBUG 2017-02-21 16:58:23,592 [145  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6451e4f6-c252-493a-9f9c-71126efb74ac
+DEBUG 2017-02-21 16:58:25,678 [125  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6451e4f6-c252-493a-9f9c-71126efb74ac
+ERROR 2017-02-21 16:58:44,444 [147  ] no.MyBlog.Web.Controllers.HomeController - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tiziano.MyBlog.Users.UserAppService.<GetRoleAsync>d__10.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Application\Users\UserAppService.cs:行号 74
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Tiziano.MyBlog.Web.Controllers.HomeController.<Index>d__5.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Web\Controllers\HomeController.cs:行号 34
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-21 16:58:44,998 [136  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"aa3c48bd-994c-4d01-a1b2-3977d68ef892","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T16:58:44.9985579+08:00","Properties":{}}
+DEBUG 2017-02-21 16:58:45,014 [136  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: aa3c48bd-994c-4d01-a1b2-3977d68ef892
+DEBUG 2017-02-21 16:59:21,590 [125  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: aa3c48bd-994c-4d01-a1b2-3977d68ef892
+ERROR 2017-02-21 16:59:32,122 [125  ] no.MyBlog.Web.Controllers.HomeController - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tiziano.MyBlog.Users.UserAppService.<GetRoleAsync>d__10.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Application\Users\UserAppService.cs:行号 74
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Tiziano.MyBlog.Web.Controllers.HomeController.<Index>d__5.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Web\Controllers\HomeController.cs:行号 34
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-21 16:59:33,074 [125  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2fc22b8c-46e7-436a-8eee-ec263ac50ad7","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T16:59:33.074226+08:00","Properties":{}}
+DEBUG 2017-02-21 16:59:33,124 [153  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2fc22b8c-46e7-436a-8eee-ec263ac50ad7
+DEBUG 2017-02-21 17:00:10,123 [147  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2fc22b8c-46e7-436a-8eee-ec263ac50ad7
+ERROR 2017-02-21 17:00:47,299 [147  ] no.MyBlog.Web.Controllers.HomeController - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tiziano.MyBlog.Users.UserAppService.<GetRoleAsync>d__10.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Application\Users\UserAppService.cs:行号 74
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Tiziano.MyBlog.Web.Controllers.HomeController.<Index>d__5.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Web\Controllers\HomeController.cs:行号 34
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-21 17:00:48,187 [151  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d3204f24-9f9f-408d-b0be-f41e51abc2be","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T17:00:48.1877431+08:00","Properties":{}}
+DEBUG 2017-02-21 17:00:48,241 [153  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d3204f24-9f9f-408d-b0be-f41e51abc2be
+DEBUG 2017-02-21 17:03:07,766 [131  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-02-21 17:03:07,768 [131  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:03:07,769 [131  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:03:07,769 [131  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-02-21 17:03:22,632 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-21 17:03:22,645 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-21 17:03:22,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Web.MyBlogWebModule, Tiziano.MyBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogDataModule, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogCoreModule, Tiziano.MyBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogApplicationModule, Tiziano.MyBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Api.MyBlogWebApiModule, Tiziano.MyBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:22,658 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-21 17:03:22,791 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:03:22,792 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:03:22,792 [1    ] o.Configuration.LanguageManagementConfig - Converted MyBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:03:22,792 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:03:23,175 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Tiziano.MyBlog.EntityFramework.MyBlogDbContext, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:03:24,519 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-21 17:03:24,527 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-21 17:03:24,529 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-21 17:03:24,531 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyBlog
+DEBUG 2017-02-21 17:03:24,533 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-21 17:03:24,649 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:03:24,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-02-21 17:03:24,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-21 17:03:24,695 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-21 17:03:24,695 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.CreateUserInput
+DEBUG 2017-02-21 17:03:24,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.GetUserOutput
+DEBUG 2017-02-21 17:03:24,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.UserListDto
+DEBUG 2017-02-21 17:03:24,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Roles.Dto.GetRoleOutput
+DEBUG 2017-02-21 17:03:24,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-21 17:03:24,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-21 17:03:24,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-21 17:03:26,870 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-21 17:03:26,871 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-21 17:03:26,873 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-21 17:03:26,874 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-21 17:03:27,690 [153  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"d3204f24-9f9f-408d-b0be-f41e51abc2be","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T17:03:27.6001295+08:00","Properties":{}}
+ERROR 2017-02-21 17:04:18,241 [147  ] no.MyBlog.Web.Controllers.HomeController - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tiziano.MyBlog.Users.UserAppService.<GetRoleAsync>d__10.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Application\Users\UserAppService.cs:行号 74
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Tiziano.MyBlog.Web.Controllers.HomeController.<Index>d__5.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Web\Controllers\HomeController.cs:行号 34
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-21 17:04:22,485 [131  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"57b680b8-f02f-4410-b48f-f81db663da41","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T17:04:22.4845168+08:00","Properties":{}}
+DEBUG 2017-02-21 17:04:22,519 [132  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 57b680b8-f02f-4410-b48f-f81db663da41
+DEBUG 2017-02-21 17:05:08,679 [138  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-02-21 17:05:08,680 [138  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:05:08,681 [138  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:05:08,681 [138  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-02-21 17:05:26,849 [128  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-21 17:05:26,863 [128  ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-21 17:05:26,869 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Web.MyBlogWebModule, Tiziano.MyBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,871 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogDataModule, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,871 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,871 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,871 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,872 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,872 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogCoreModule, Tiziano.MyBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,872 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogApplicationModule, Tiziano.MyBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,872 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,872 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Api.MyBlogWebApiModule, Tiziano.MyBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,873 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,873 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,873 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,873 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,873 [128  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:26,877 [128  ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-21 17:05:27,111 [128  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:05:27,111 [128  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:05:27,111 [128  ] o.Configuration.LanguageManagementConfig - Converted MyBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:05:27,111 [128  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:05:27,519 [128  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Tiziano.MyBlog.EntityFramework.MyBlogDbContext, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:05:29,066 [128  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-21 17:05:29,071 [128  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-21 17:05:29,089 [128  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-21 17:05:29,091 [128  ] Abp.Localization.LocalizationManager     - Initialized localization source: MyBlog
+DEBUG 2017-02-21 17:05:29,091 [128  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-21 17:05:29,216 [128  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:05:29,260 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-02-21 17:05:29,260 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-21 17:05:29,263 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-21 17:05:29,263 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.CreateUserInput
+DEBUG 2017-02-21 17:05:29,264 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.GetUserOutput
+DEBUG 2017-02-21 17:05:29,264 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.UserListDto
+DEBUG 2017-02-21 17:05:29,264 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Roles.Dto.GetRoleOutput
+DEBUG 2017-02-21 17:05:29,264 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-21 17:05:29,264 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-21 17:05:29,264 [128  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-21 17:05:31,447 [128  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-21 17:05:31,448 [128  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-21 17:05:31,449 [128  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-21 17:05:31,450 [128  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-21 17:05:32,256 [138  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"57b680b8-f02f-4410-b48f-f81db663da41","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T17:05:32.1412899+08:00","Properties":{}}
+DEBUG 2017-02-21 17:05:32,256 [129  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"d3204f24-9f9f-408d-b0be-f41e51abc2be","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T17:05:32.1412899+08:00","Properties":{}}
+DEBUG 2017-02-21 17:06:16,311 [141  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 57b680b8-f02f-4410-b48f-f81db663da41
+DEBUG 2017-02-21 17:06:16,885 [147  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d3204f24-9f9f-408d-b0be-f41e51abc2be
+DEBUG 2017-02-21 17:06:17,741 [132  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-02-21 17:06:17,742 [132  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:06:17,743 [132  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:06:17,743 [132  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-02-21 17:06:38,110 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-21 17:06:38,125 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-21 17:06:38,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Web.MyBlogWebModule, Tiziano.MyBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogDataModule, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogCoreModule, Tiziano.MyBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogApplicationModule, Tiziano.MyBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Api.MyBlogWebApiModule, Tiziano.MyBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:38,140 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-21 17:06:38,402 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:06:38,402 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:06:38,402 [1    ] o.Configuration.LanguageManagementConfig - Converted MyBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:06:38,402 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:06:38,817 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Tiziano.MyBlog.EntityFramework.MyBlogDbContext, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:06:40,298 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-21 17:06:40,306 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-21 17:06:40,307 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-21 17:06:40,309 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyBlog
+DEBUG 2017-02-21 17:06:40,310 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-21 17:06:40,439 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:06:40,483 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-02-21 17:06:40,483 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-21 17:06:40,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-21 17:06:40,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.CreateUserInput
+DEBUG 2017-02-21 17:06:40,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.GetUserOutput
+DEBUG 2017-02-21 17:06:40,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.UserListDto
+DEBUG 2017-02-21 17:06:40,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Roles.Dto.GetRoleOutput
+DEBUG 2017-02-21 17:06:40,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-21 17:06:40,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-21 17:06:40,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-21 17:06:42,723 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-21 17:06:42,725 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-21 17:06:42,726 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-21 17:06:42,727 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-02-21 17:08:24,006 [141  ] no.MyBlog.Web.Controllers.HomeController - 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tiziano.MyBlog.Users.UserAppService.<GetRoleAsync>d__10.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Application\Users\UserAppService.cs:行号 74
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext() 位置 D:\Halil\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:行号 91
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 Tiziano.MyBlog.Web.Controllers.HomeController.<Index>d__5.MoveNext() 位置 D:\MyBlog\Tiziano.MyBlog.Web\Controllers\HomeController.cs:行号 34
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-21 17:08:28,633 [126  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"16390279-a527-464f-a23e-9b5b520fbca9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T17:08:28.6180623+08:00","Properties":{}}
+DEBUG 2017-02-21 17:08:28,664 [139  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 16390279-a527-464f-a23e-9b5b520fbca9
+DEBUG 2017-02-21 17:10:18,730 [146  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-02-21 17:10:18,730 [146  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:10:18,730 [146  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:10:18,730 [146  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-02-21 17:10:33,754 [127  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-21 17:10:33,778 [127  ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-21 17:10:33,788 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Web.MyBlogWebModule, Tiziano.MyBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,793 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogDataModule, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,793 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,793 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,793 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,794 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,794 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogCoreModule, Tiziano.MyBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,794 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogApplicationModule, Tiziano.MyBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,795 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,795 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Api.MyBlogWebApiModule, Tiziano.MyBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,795 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,795 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,795 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,796 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,796 [127  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:33,801 [127  ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-21 17:10:33,934 [127  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:10:33,934 [127  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:10:33,934 [127  ] o.Configuration.LanguageManagementConfig - Converted MyBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:10:33,934 [127  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:10:34,398 [127  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Tiziano.MyBlog.EntityFramework.MyBlogDbContext, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:10:35,743 [127  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-21 17:10:35,748 [127  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-21 17:10:35,750 [127  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-21 17:10:35,751 [127  ] Abp.Localization.LocalizationManager     - Initialized localization source: MyBlog
+DEBUG 2017-02-21 17:10:35,752 [127  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-21 17:10:35,877 [127  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:10:35,930 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-02-21 17:10:35,930 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-21 17:10:35,933 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-21 17:10:35,933 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.CreateUserInput
+DEBUG 2017-02-21 17:10:35,934 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.GetUserOutput
+DEBUG 2017-02-21 17:10:35,934 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.UserListDto
+DEBUG 2017-02-21 17:10:35,934 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Roles.Dto.GetRoleOutput
+DEBUG 2017-02-21 17:10:35,934 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-21 17:10:35,934 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-21 17:10:35,934 [127  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-21 17:10:38,137 [127  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-21 17:10:38,138 [127  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-21 17:10:38,140 [127  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-21 17:10:38,142 [127  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-21 17:10:38,903 [139  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"16390279-a527-464f-a23e-9b5b520fbca9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T17:10:38.820821+08:00","Properties":{}}
+DEBUG 2017-02-21 17:14:24,429 [150  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-02-21 17:14:24,430 [150  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:14:24,430 [150  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:14:24,430 [150  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-02-21 17:14:43,151 [133  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-21 17:14:43,167 [133  ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-21 17:14:43,172 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Web.MyBlogWebModule, Tiziano.MyBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,174 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogDataModule, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,174 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,174 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,175 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,175 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,175 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogCoreModule, Tiziano.MyBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,175 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.MyBlogApplicationModule, Tiziano.MyBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,175 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,176 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Tiziano.MyBlog.Api.MyBlogWebApiModule, Tiziano.MyBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,176 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,176 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,176 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,176 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,176 [133  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:43,180 [133  ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-21 17:14:43,430 [133  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:14:43,430 [133  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:14:43,430 [133  ] o.Configuration.LanguageManagementConfig - Converted MyBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:14:43,430 [133  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-21 17:14:43,867 [133  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Tiziano.MyBlog.EntityFramework.MyBlogDbContext, Tiziano.MyBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-21 17:14:45,567 [133  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-21 17:14:45,574 [133  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-21 17:14:45,584 [133  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-21 17:14:45,585 [133  ] Abp.Localization.LocalizationManager     - Initialized localization source: MyBlog
+DEBUG 2017-02-21 17:14:45,586 [133  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-21 17:14:45,709 [133  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-21 17:14:45,784 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-02-21 17:14:45,784 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-21 17:14:45,790 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-21 17:14:45,790 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.CreateUserInput
+DEBUG 2017-02-21 17:14:45,791 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.GetUserOutput
+DEBUG 2017-02-21 17:14:45,791 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Users.Dto.UserListDto
+DEBUG 2017-02-21 17:14:45,791 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Roles.Dto.GetRoleOutput
+DEBUG 2017-02-21 17:14:45,791 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-21 17:14:45,791 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-21 17:14:45,791 [133  ] Abp.AutoMapper.AbpAutoMapperModule       - Tiziano.MyBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-21 17:14:47,904 [133  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-21 17:14:47,905 [133  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-21 17:14:47,906 [133  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-21 17:14:47,907 [133  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Tiziano.MyBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-21 17:14:48,633 [150  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"16390279-a527-464f-a23e-9b5b520fbca9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-02-21T17:14:48.5614385+08:00","Properties":{}}

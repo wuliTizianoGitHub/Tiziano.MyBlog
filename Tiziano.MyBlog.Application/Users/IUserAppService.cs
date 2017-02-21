@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using Abp.Application.Services;
 using Abp.Application.Services.Dto;
 using Tiziano.MyBlog.Users.Dto;
+using Tiziano.MyBlog.Roles.Dto;
 
 namespace Tiziano.MyBlog.Users
 {
@@ -14,5 +15,9 @@ namespace Tiziano.MyBlog.Users
         Task<ListResultDto<UserListDto>> GetUsers();
 
         Task CreateUser(CreateUserInput input);
+
+        Task<GetUserOutput> GetUserAsync(long Id);
+
+        Task<GetRoleOutput> GetRoleAsync(long UserId);
     }
 }

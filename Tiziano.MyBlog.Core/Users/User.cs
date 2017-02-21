@@ -9,7 +9,7 @@ namespace Tiziano.MyBlog.Users
     {
 
         //头像
-        public string ProfilePhoto { get; set; }
+        public virtual string ProfilePhoto { get; set; }
 
         public const string DefaultPassword = "123qwe";
 

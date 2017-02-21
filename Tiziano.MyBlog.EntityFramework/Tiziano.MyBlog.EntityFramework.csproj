@@ -120,9 +120,9 @@
   <ItemGroup>
     <Compile Include="EntityFramework\MyBlogDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\MyBlogRepositoryBase.cs" />
-    <Compile Include="Migrations\201701271145151_AbpZero_Initial.cs" />
-    <Compile Include="Migrations\201701271145151_AbpZero_Initial.Designer.cs">
-      <DependentUpon>201701271145151_AbpZero_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201702210618566_insert.cs" />
+    <Compile Include="Migrations\201702210618566_insert.Designer.cs">
+      <DependentUpon>201702210618566_insert.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -147,8 +147,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201701271145151_AbpZero_Initial.resx">
-      <DependentUpon>201701271145151_AbpZero_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201702210618566_insert.resx">
+      <DependentUpon>201702210618566_insert.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

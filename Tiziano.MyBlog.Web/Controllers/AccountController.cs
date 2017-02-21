@@ -101,7 +101,7 @@ namespace Tiziano.MyBlog.Web.Controllers
             {
                 returnUrl = Request.ApplicationPath;
             }
-
+            
             if (!string.IsNullOrWhiteSpace(returnUrlHash))
             {
                 returnUrl = returnUrl + returnUrlHash;
@@ -115,7 +115,6 @@ namespace Tiziano.MyBlog.Web.Controllers
 
             //登录方法
             var loginResult = await _logInManager.LoginAsync(usernameOrEmailAddress, password, tenancyName);
-
             //根据登录结果返回数据
             switch (loginResult.Result)
             {

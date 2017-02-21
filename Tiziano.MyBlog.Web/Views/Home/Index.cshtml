@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Tiziano.MyBlog.Web.Models.Account.HomeUserViewModel
+@{
 
     Layout = null;
 }
@@ -35,11 +36,11 @@
                 <ul class="nav" id="side-menu">
                     <li class="nav-header">
                         <div class="dropdown profile-element">
-                            <span><img alt="image" class="img-circle" src="" /></span>
+                            <span><img alt="image" class="img-circle" src="@Model.ProfilePhoto" /></span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear">
-                                    <span class="block m-t-xs"><strong class="font-bold"></strong></span>
-                                    <span class="text-muted text-xs block">超级管理员<b class="caret"></b></span>
+                                    <span class="block m-t-xs"><strong class="font-bold">@Model.TenancyName/@Model.Surname</strong></span>
+                                    <span class="text-muted text-xs block">@Model.RoleName<b class="caret"></b></span>
                                 </span>
                             </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">

@@ -3,6 +3,7 @@ using Abp.Zero.EntityFramework;
 using Tiziano.MyBlog.Authorization.Roles;
 using Tiziano.MyBlog.MultiTenancy;
 using Tiziano.MyBlog.Users;
+using System.Data.Entity;
 
 namespace Tiziano.MyBlog.EntityFramework
 {
