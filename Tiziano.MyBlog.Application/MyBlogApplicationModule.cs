@@ -13,6 +13,7 @@ namespace Tiziano.MyBlog
             {
                 //Add your custom AutoMapper mappings here...
                 //mapper.CreateMap<,>()
+                DtoMappings.Map(mapper);
             });
         }
 

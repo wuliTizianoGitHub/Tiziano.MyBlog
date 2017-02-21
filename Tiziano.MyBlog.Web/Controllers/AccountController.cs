@@ -70,7 +70,7 @@ namespace Tiziano.MyBlog.Web.Controllers
         {
             if (string.IsNullOrWhiteSpace(returnUrl))
             {
-                returnUrl = Request.ApplicationPath;
+                returnUrl ="/Home/Index";
             }
 
             return View(

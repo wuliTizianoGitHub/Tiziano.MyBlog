@@ -7,6 +7,10 @@ namespace Tiziano.MyBlog.Users
 {
     public class User : AbpUser<User>
     {
+
+        //头像
+        public string ProfilePhoto { get; set; }
+
         public const string DefaultPassword = "123qwe";
 
         public static string CreateRandomPassword()

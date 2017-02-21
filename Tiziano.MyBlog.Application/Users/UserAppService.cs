@@ -56,5 +56,11 @@ namespace Tiziano.MyBlog.Users
 
             CheckErrors(await UserManager.CreateAsync(user));
         }
+
+        public async Task<GetUserOutput> GetUser(long Id)
+        {
+           var user =  await UserManager.GetUserByIdAsync(Id);
+           return  user.MapTo<GetUserOutput>();
+        }
     }
 }
