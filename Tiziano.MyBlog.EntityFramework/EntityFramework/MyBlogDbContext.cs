@@ -4,6 +4,7 @@ using Tiziano.MyBlog.Authorization.Roles;
 using Tiziano.MyBlog.MultiTenancy;
 using Tiziano.MyBlog.Users;
 using System.Data.Entity;
+using Tiziano.MyBlog.Authorization.Permissions;
 
 namespace Tiziano.MyBlog.EntityFramework
 {
@@ -16,6 +17,8 @@ namespace Tiziano.MyBlog.EntityFramework
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
          *   pass connection string name to base classes. ABP works either way.
          */
+         public IDbSet<Permission> MyPermissions { get; set; }
+
         public MyBlogDbContext()
             : base("Default")
         {

@@ -7,13 +7,13 @@ namespace Tiziano.MyBlog.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class insert : IMigrationMetadata
+    public sealed partial class insert1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(insert));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(insert1));
         
         string IMigrationMetadata.Id
         {
-            get { return "201702210618566_insert"; }
+            get { return "201702211535379_insert1"; }
         }
         
         string IMigrationMetadata.Source

@@ -7322,7 +7322,7 @@ body.skin-1 {
 }
 
 .skin-1 .img-circle {
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 .skin-1 .navbar-default .nav > li > a:hover,

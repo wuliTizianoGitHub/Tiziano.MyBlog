@@ -33,6 +33,7 @@ namespace Tiziano.MyBlog.Web.Controllers
             var tentant = await _tenantManager.GetByIdAsync(AbpSession.TenantId.Value);
             var role = await _iUserAppService.GetRoleAsync(AbpSession.UserId.Value);
 
+
             return View(new HomeUserViewModel { ProfilePhoto= user.ProfilePhoto, Surname = user .Surname, TenancyName= tentant .TenancyName, RoleName = role.DisplayName });
         }
 	}

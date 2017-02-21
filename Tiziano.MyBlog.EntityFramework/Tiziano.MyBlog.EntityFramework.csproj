@@ -120,9 +120,14 @@
   <ItemGroup>
     <Compile Include="EntityFramework\MyBlogDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\MyBlogRepositoryBase.cs" />
-    <Compile Include="Migrations\201702210618566_insert.cs" />
-    <Compile Include="Migrations\201702210618566_insert.Designer.cs">
-      <DependentUpon>201702210618566_insert.cs</DependentUpon>
+    <Compile Include="EntityFramework\Repositories\PermissionRepository.cs" />
+    <Compile Include="Migrations\201702211528078_insertdata.cs" />
+    <Compile Include="Migrations\201702211528078_insertdata.Designer.cs">
+      <DependentUpon>201702211528078_insertdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702211535379_insert1.cs" />
+    <Compile Include="Migrations\201702211535379_insert1.Designer.cs">
+      <DependentUpon>201702211535379_insert1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -147,8 +152,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201702210618566_insert.resx">
-      <DependentUpon>201702210618566_insert.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201702211528078_insertdata.resx">
+      <DependentUpon>201702211528078_insertdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702211535379_insert1.resx">
+      <DependentUpon>201702211535379_insert1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

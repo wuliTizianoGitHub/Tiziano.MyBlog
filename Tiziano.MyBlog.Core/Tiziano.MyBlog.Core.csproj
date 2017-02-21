@@ -94,6 +94,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Authorization\Permissions\IPermissionRepository.cs" />
     <Compile Include="Authorization\Permissions\Permission.cs" />
     <Compile Include="MyBlogConsts.cs" />
     <Compile Include="MyBlogCoreModule.cs" />
